@@ -32,10 +32,28 @@ body {
   overflow: hidden;
 }
 
-.product-img {
+.image-wrapper {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(rgba(0, 0, 0, 0.044), rgba(0, 0, 0, 0.1));
+}
+
+.product-img-desktop,
+.product-img-mobile {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.product-img-mobile {
+  display: none;
 }
 
 .product-info {
@@ -48,7 +66,7 @@ body {
 
 .product-type {
   text-transform: uppercase;
-  font-size: 1rem;
+  font-size: 1.2rem;
   letter-spacing: 4px;
   margin-bottom: 2.2rem;
 }

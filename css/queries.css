@@ -1,0 +1,26 @@
+@media (max-width: 38em) {
+  .product-card {
+    flex-direction: column;
+    max-width: 34rem;
+  }
+
+  .product-img-desktop {
+    display: none;
+  }
+
+  .product-img-mobile {
+    display: inline-block;
+  }
+
+  .product-name {
+    padding: 0;
+  }
+
+  .product-info {
+    max-width: none;
+  }
+
+  .overlay {
+    background: radial-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.05));
+  }
+}
