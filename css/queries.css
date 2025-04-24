@@ -23,4 +23,8 @@
   .overlay {
     background: radial-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.05));
   }
+
+  .prices {
+    margin-bottom: 2rem;
+  }
 }
